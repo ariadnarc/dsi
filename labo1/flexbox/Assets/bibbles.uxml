@@ -1,0 +1,18 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/menuStyle.uss?fileID=7433441132597879392&amp;guid=04eb70a625a62a845b6294c3d44ae88c&amp;type=3#menuStyle" />
+    <ui:VisualElement name="Menu" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+        <ui:VisualElement style="flex-grow: 1; background-color: rgb(135, 79, 154); -unity-background-scale-mode: scale-and-crop; width: 30%; height: 50%; align-items: stretch; justify-content: flex-end; align-self: flex-start; margin-bottom: 90px; margin-top: 90px; translate: -291px 697px; scale: 0.5 4;">
+            <ui:Label tabindex="-1" text="Choose your character" display-tooltip-when-elided="true" style="font-size: 50px; -unity-font: url(&apos;project://database/Assets/TextMesh%20Pro/Examples%20&amp;%20Extras/Fonts/Roboto-Bold.ttf?fileID=12800000&amp;guid=4beb055f07aaff244873dec698d0363e&amp;type=3#Roboto-Bold&apos;); -unity-font-style: bold; color: rgb(47, 168, 120); -unity-text-outline-color: rgb(0, 0, 0); -unity-text-outline-width: 2.5px; translate: 1013px -276px; scale: 2.3 0.4;" />
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-grow: 1; background-color: rgb(224, 106, 43); width: 30%; height: 50%; align-self: center; translate: 0 -800px; -unity-text-outline-color: rgba(255, 255, 255, 0); color: rgba(255, 255, 255, 0);" />
+        <ui:VisualElement style="flex-grow: 1; background-color: rgb(224, 62, 43); width: 30%; height: 50%; align-self: flex-end; translate: -1284px -56px; -unity-text-outline-color: rgba(255, 255, 255, 0); color: rgba(255, 255, 255, 0); scale: 0.5 4;" />
+        <ui:VisualElement style="flex-grow: 1; background-color: rgb(108, 67, 44); width: 30%; height: 50%; align-self: center; translate: -361px -388px; -unity-text-outline-color: rgba(255, 255, 255, 0); color: rgba(255, 255, 255, 0); scale: 0.5 4;" />
+        <ui:VisualElement style="flex-grow: 1; background-color: rgb(221, 93, 3); width: 30%; height: 50%; align-self: center; translate: -1184px -722px; -unity-text-outline-color: rgba(255, 255, 255, 0); color: rgba(255, 255, 255, 0); scale: 0.5 4;" />
+        <ui:VisualElement style="flex-grow: 1; background-color: rgb(152, 29, 15); width: 30%; height: 50%; align-self: center; translate: 1284px -1053px; -unity-text-outline-color: rgba(255, 255, 255, 0); color: rgba(255, 255, 255, 0); scale: 0.5 4;" />
+        <ui:VisualElement style="flex-grow: 1; background-color: rgb(51, 202, 155); width: 30%; height: 50%; align-self: center; translate: 2073px -1389px; -unity-text-outline-color: rgba(255, 255, 255, 0); color: rgba(255, 255, 255, 0); scale: 0.5 4;" />
+        <ui:VisualElement style="flex-grow: 1; background-color: rgb(72, 159, 47); width: 30%; height: 50%; align-self: center; translate: -1190px 33px; -unity-text-outline-color: rgba(255, 255, 255, 0); color: rgba(255, 255, 255, 0); scale: 0.5 4;" />
+        <ui:VisualElement style="flex-grow: 1; background-color: rgb(109, 39, 130); width: 30%; height: 50%; align-self: center; translate: -294px -295px; -unity-text-outline-color: rgba(255, 255, 255, 0); color: rgba(255, 255, 255, 0); scale: 0.5 4;" />
+        <ui:VisualElement style="flex-grow: 1; background-color: rgb(181, 59, 192); width: 30%; height: 50%; align-self: center; translate: 579px -643px; -unity-text-outline-color: rgba(255, 255, 255, 0); color: rgba(255, 255, 255, 0); scale: 0.5 4;" />
+        <ui:VisualElement style="flex-grow: 1; background-color: rgb(219, 104, 161); width: 30%; height: 50%; align-self: center; translate: 1433px -971px; -unity-text-outline-color: rgba(255, 255, 255, 0); color: rgba(255, 255, 255, 0); scale: 0.5 4;" />
+    </ui:VisualElement>
+</ui:UXML>
