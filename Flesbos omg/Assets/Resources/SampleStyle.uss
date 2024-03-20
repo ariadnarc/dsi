@@ -17,6 +17,8 @@
     border-right-width: 2.5px;
     border-bottom-width: 2.5px;
     border-left-width: 2.5px;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out-elastic;
 }
 
 .ari-button:hover {
@@ -46,6 +48,8 @@
     border-right-width: 2.5px;
     border-bottom-width: 2.5px;
     border-left-width: 2.5px;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out-elastic;
 }
 
 .andres-button:active {
@@ -77,6 +81,8 @@
     border-right-width: 2.5px;
     border-bottom-width: 2.5px;
     border-left-width: 2.5px;
+    transition-timing-function: ease-out-elastic;
+    transition-duration: 0.5s;
 }
 
 .carmen-button:active {
@@ -105,6 +111,16 @@
     border-right-color: rgb(0, 0, 0);
     border-top-color: rgb(0, 0, 0);
     border-bottom-color: rgb(0, 0, 0);
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out-elastic;
+}
+
+.cynthia-button:active {
+    background-color: rgb(214, 125, 92);
+}
+
+.cynthia-button:hover {
+    scale: 1.05 1.05;
 }
 
 .denisa-button {
@@ -125,6 +141,16 @@
     border-right-color: rgb(0, 0, 0);
     border-top-color: rgb(0, 0, 0);
     border-bottom-color: rgb(0, 0, 0);
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out-elastic;
+}
+
+.denisa-button:hover {
+    scale: 1.05 1.05;
+}
+
+.denisa-button:active {
+    background-color: rgb(190, 65, 74);
 }
 
 .ines-button {
@@ -149,6 +175,16 @@
     border-right-color: rgb(0, 0, 0);
     border-top-color: rgb(0, 0, 0);
     border-bottom-color: rgb(0, 0, 0);
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out-elastic;
+}
+
+.ines-button:hover {
+    scale: 1.05 1.05;
+}
+
+.ines-button:active {
+    background-color: rgb(82, 195, 185);
 }
 
 .nieves-button {
@@ -169,6 +205,16 @@
     border-right-color: rgb(0, 0, 0);
     border-top-color: rgb(0, 0, 0);
     border-bottom-color: rgb(0, 0, 0);
+    transition-timing-function: ease-out-elastic;
+    transition-duration: 0.5s;
+}
+
+.nieves-button:hover {
+    scale: 1.05 1.05;
+}
+
+.nieves-button:active {
+    background-color: rgb(123, 79, 63);
 }
 
 .paula-button {
@@ -188,6 +234,16 @@
     border-right-width: 2.5px;
     border-bottom-width: 2.5px;
     border-left-width: 2.5px;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out-elastic;
+}
+
+.paula-button:active {
+    background-color: rgb(207, 118, 185);
+}
+
+.paula-button:hover {
+    scale: 1.05 1.05;
 }
 
 .paigro-button {
@@ -208,6 +264,16 @@
     border-right-width: 2.5px;
     border-bottom-width: 2.5px;
     border-left-width: 2.5px;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out-elastic;
+}
+
+.paigro-button:hover {
+    scale: 1.05 1.05;
+}
+
+.paigro-button:active {
+    background-color: rgb(214, 127, 84);
 }
 
 .poli-button {
@@ -229,4 +295,14 @@
     border-right-width: 2.5px;
     border-bottom-width: 2.5px;
     border-left-width: 2.5px;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out-elastic;
+}
+
+.poli-button:hover {
+    scale: 1.05 1.05;
+}
+
+.poli-button:active {
+    background-color: rgb(120, 183, 113);
 }
