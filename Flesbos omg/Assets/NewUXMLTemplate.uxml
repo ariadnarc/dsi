@@ -1,0 +1,50 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Resources/SampleStyle.uss?fileID=7433441132597879392&amp;guid=200a3f4b7c8eeaa46adf7d239cae7adb&amp;type=3#SampleStyle" />
+    <ui:VisualElement style="flex-grow: 1; width: auto; height: auto; flex-direction: row; align-self: auto; align-items: center; flex-wrap: wrap; justify-content: flex-start;">
+        <ui:VisualElement name="MenuSelector" style="flex-grow: 1; background-color: rgb(40, 40, 125); width: 100%; height: 33.3%; -unity-background-scale-mode: stretch-to-fill; -unity-text-align: upper-center; align-items: center; justify-content: flex-start; align-self: auto; flex-direction: column; flex-wrap: nowrap;">
+            <ui:Label tabindex="-1" text="¿Qué bibble te gustaría ser?" parse-escape-sequences="true" display-tooltip-when-elided="true" style="align-items: auto; width: auto; height: auto; align-self: center; justify-content: space-between; flex-direction: column; flex-wrap: wrap-reverse; -unity-font: initial; font-size: 36px; -unity-text-align: middle-center; color: rgb(255, 255, 255); -unity-font-style: bold; border-top-width: 10px; border-right-width: 10px; border-bottom-width: 10px; border-left-width: 10px;" />
+            <ui:VisualElement name="Botones" style="flex-grow: 1; align-self: center; justify-content: center; width: 100%; flex-direction: row; flex-wrap: wrap; align-items: stretch; height: 0;">
+                <ui:Button text="Ari" parse-escape-sequences="true" display-tooltip-when-elided="true" class="ari-button" />
+                <ui:Button text="Andrés" parse-escape-sequences="true" display-tooltip-when-elided="true" class="andres-button" />
+                <ui:Button text="Carmen" parse-escape-sequences="true" display-tooltip-when-elided="true" class="carmen-button" />
+                <ui:Button text="Cynthia" parse-escape-sequences="true" display-tooltip-when-elided="true" class="cynthia-button" />
+                <ui:Button text="Denisa" parse-escape-sequences="true" display-tooltip-when-elided="true" class="denisa-button" />
+                <ui:Button text="Inés" parse-escape-sequences="true" display-tooltip-when-elided="true" class="ines-button" />
+                <ui:Button text="Nieves" parse-escape-sequences="true" display-tooltip-when-elided="true" class="nieves-button" />
+                <ui:Button text="Paula" parse-escape-sequences="true" display-tooltip-when-elided="true" class="paula-button" />
+                <ui:Button text="Paigro" parse-escape-sequences="true" display-tooltip-when-elided="true" class="paigro-button" />
+                <ui:Button text="Poli" parse-escape-sequences="true" display-tooltip-when-elided="true" class="poli-button" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="Ari" style="flex-grow: 1; background-color: rgb(79, 17, 63); width: 20%; height: 33.3%; -unity-background-scale-mode: stretch-to-fill;">
+            <ui:VisualElement style="flex-grow: 1; background-image: url(&quot;project://database/Assets/fotillos/ari.jpg?fileID=2800000&amp;guid=f9bfa631904ce54479cef50c3e74de4b&amp;type=3#ari&quot;); width: 70%; height: 243%; flex-direction: row; flex-wrap: wrap-reverse; align-items: stretch; justify-content: space-around; align-self: center; -unity-slice-left: 0; -unity-slice-top: 0; border-top-width: 2.5px; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-right-radius: 50px; border-bottom-left-radius: 50px; border-right-width: 2.5px; border-bottom-width: 2.5px; border-left-width: 2.5px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Andres" style="flex-grow: 1; background-color: rgb(195, 12, 25); width: 20%; height: 33.3%; -unity-background-scale-mode: stretch-to-fill; background-image: none;">
+            <ui:VisualElement style="flex-grow: 1; background-image: url(&quot;project://database/Assets/fotillos/andres.jpg?fileID=2800000&amp;guid=ecf78807470520742ad3dda6000a463d&amp;type=3#andres&quot;); width: 70%; align-self: center; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-right-radius: 50px; border-bottom-left-radius: 50px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Carmen" style="flex-grow: 1; background-color: rgb(59, 26, 67); width: 20%; height: 33.3%; -unity-background-scale-mode: stretch-to-fill; flex-direction: column; background-image: none;">
+            <ui:VisualElement style="flex-grow: 1; background-image: url(&quot;project://database/Assets/fotillos/carmen.jpg?fileID=2800000&amp;guid=11a710b50e0616a4bb83e226e9b661b1&amp;type=3#carmen&quot;); width: 70%; align-self: center; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-right-radius: 50px; border-bottom-left-radius: 50px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Cyn" style="flex-grow: 1; background-color: rgb(166, 72, 37); width: 20%; height: 33.3%; -unity-background-scale-mode: stretch-to-fill; background-image: none;">
+            <ui:VisualElement style="flex-grow: 1; background-image: url(&quot;project://database/Assets/fotillos/cynthia.jpg?fileID=2800000&amp;guid=db8a8484a5982ec47bf949cbe6f78f5e&amp;type=3#cynthia&quot;); width: 70%; align-self: center; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-right-radius: 50px; border-bottom-left-radius: 50px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Denisa" style="flex-grow: 1; background-color: rgb(111, 20, 26); width: 20%; height: 33.3%; -unity-background-scale-mode: stretch-to-fill; background-image: none;">
+            <ui:VisualElement style="flex-grow: 1; width: 70%; align-self: center; background-image: url(&quot;project://database/Assets/fotillos/denisa.jpg?fileID=2800000&amp;guid=26c6fa2d92aefbe448c426af489ddb5c&amp;type=3#denisa&quot;); border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-right-radius: 50px; border-bottom-left-radius: 50px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Ines" style="flex-grow: 1; background-color: rgb(41, 132, 124); width: 20%; height: 33.3%; -unity-background-scale-mode: stretch-to-fill; background-image: none;">
+            <ui:VisualElement style="flex-grow: 1; background-image: url(&quot;project://database/Assets/fotillos/ines.jpg?fileID=2800000&amp;guid=742b860a4434e314c93ac80ca74ee220&amp;type=3#ines&quot;); width: 70%; align-self: center; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-right-radius: 50px; border-bottom-left-radius: 50px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Nieves" style="flex-grow: 1; background-color: rgb(67, 37, 26); width: 20%; height: 33.3%; -unity-background-scale-mode: stretch-to-fill; background-image: none;">
+            <ui:VisualElement style="flex-grow: 1; background-image: url(&quot;project://database/Assets/fotillos/nieves.jpg?fileID=2800000&amp;guid=3f15da70a729adb47a282dbf84f89bac&amp;type=3#nieves&quot;); width: 70%; align-self: center; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-right-radius: 50px; border-bottom-left-radius: 50px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Paula" style="flex-grow: 1; background-color: rgb(173, 61, 145); width: 20%; height: 33.3%; -unity-background-scale-mode: stretch-to-fill; background-image: none;">
+            <ui:VisualElement style="flex-grow: 1; width: 70%; align-self: center; background-image: url(&quot;project://database/Assets/fotillos/paulaAlem.jpg?fileID=2800000&amp;guid=7f5d3b2e7d8515f40988231cdaa0f325&amp;type=3#paulaAlem&quot;); border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-right-radius: 50px; border-bottom-left-radius: 50px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Paigro" style="flex-grow: 1; background-color: rgb(195, 91, 40); width: 20%; height: 33.3%; -unity-background-scale-mode: stretch-to-fill; background-image: none;">
+            <ui:VisualElement style="flex-grow: 1; background-image: url(&quot;project://database/Assets/fotillos/paigro.jpg?fileID=2800000&amp;guid=ef865d8dcf2498645afddec150d862aa&amp;type=3#paigro&quot;); width: 70%; align-self: center; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-right-radius: 50px; border-bottom-left-radius: 50px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Poli" style="flex-grow: 1; background-color: rgb(60, 118, 53); width: 20%; height: 33.3%; -unity-background-scale-mode: stretch-to-fill; background-image: none;">
+            <ui:VisualElement style="flex-grow: 1; width: 70%; background-image: url(&quot;project://database/Assets/fotillos/poli.jpg?fileID=2800000&amp;guid=6a9ac74a388831c439bf7b11c1933038&amp;type=3#poli&quot;); align-self: center; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-right-radius: 50px; border-bottom-left-radius: 50px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
